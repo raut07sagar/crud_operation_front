@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const usersUrl = 'http://localhost:3003/users';
-const usersUrl = 'http://localhost:8080/users';
+const usersUrl = 'https://crud-app13.herokuapp.com/users';
 
 export const getUsers = async (id) => {
     id = id || '';
